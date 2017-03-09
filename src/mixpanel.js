@@ -1,8 +1,6 @@
 /**
  * mixpanel.js - Provides an abstraction over code that calls 
  * the mixpanel library for user tracking. 
- * //Attaches to router:navigation:success event to track when
- * a page has been loaded. 
  */
 
 'use strict';
@@ -29,10 +27,7 @@ import * as LogManager from 'aurelia-logging';
 const defaultOptions = {
 	logging: {
 		enabled: true
-	}/*,
-	pageTracking: {
-		enabled: false
-	}*/
+	}
 };
 
 
